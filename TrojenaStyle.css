@@ -270,7 +270,7 @@ header {
   letter-spacing: 0.16em;
   line-height: 43px;
   color: var(--white-color);
-  margin-bottom: 48px;
+  margin-bottom: 38px;
   padding-right: 300px;
 }
 
@@ -682,7 +682,7 @@ span.error {
     font-weight: 700;
     letter-spacing: 0.16em;
     line-height: 38px;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
     padding-right: 24px;
   }
 
