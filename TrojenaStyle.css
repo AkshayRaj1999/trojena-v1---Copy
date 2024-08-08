@@ -1093,3 +1093,8 @@ header {
 .play__btn__container img{
   position: unset;
 }
+.thanks__note__content__wrapper__image__container{
+  width: 67px;
+  height: auto;
+  margin-bottom: 20px;
+}
