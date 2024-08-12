@@ -1110,6 +1110,7 @@ header {
   height: auto;
   margin-bottom: 20px;
 }
-.layout-canvas-a{
+/* .layout-canvas-a{
   position:relative;
-  }
+  z-index: 1;
+  } */
