@@ -323,6 +323,8 @@ header {
 
 .trojena__location__indication__image__wrapper img {
   aspect-ratio: 1.37/1;
+  width: 100%;
+  height: auto;
 }
 
 .trojena__location__indicator__section {
@@ -377,12 +379,14 @@ header {
 
 .trojena__unique__image__container {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .trojena__unique__image__container img {
   object-fit: cover;
   aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
 }
 
 .trojena__contact__section {
@@ -979,7 +983,11 @@ header {
   display: flex;
   align-items: center;
 }
-
+.trojena__footer__social__media__links ul li a img{
+  height: 42px;
+  width: 42px;
+  object-fit: contain;
+}
 .trojena__footer__social__media__links ul li:not(:last-child) {
   margin-right: 14px;
 }
