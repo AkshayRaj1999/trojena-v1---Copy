@@ -678,7 +678,7 @@ span.error {
   }
 
   .navbar__logo__container {
-    max-width: 166px;
+    width: 166px;
   }
 
   .hero__banner__content__wrapper h1 {
@@ -760,6 +760,9 @@ span.error {
   .trojena__unique__image__container__lsat__child {
     grid-column: span 2;
     max-height: 256px;
+  }
+  .trojena__unique__image__container__lsat__child img{
+    height: 256px;
   }
 
   .trojena__contact__form__wrapper {
@@ -999,6 +1002,7 @@ header {
 
 .iti--inline-dropdown .iti__dropdown-content {
   width: max-content !important;
+  z-index: 100;
 }
 
 /* media queries starts here */
