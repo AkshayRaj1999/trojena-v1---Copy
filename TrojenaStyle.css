@@ -1021,6 +1021,11 @@ header {
   object-fit: contain;
 }
 
+.trojena__footer__social__media__links ul li a img:hover {
+  scale: 1.1;
+  transition: all 100ms ease-in-out;
+}
+
 .trojena__footer__social__media__links ul li:not(:last-child) {
   margin-right: 22px;
 }
@@ -1251,7 +1256,7 @@ header {
   .trojena__bottom__footer__wrapper {
     padding: 18px 0 10px 0;
     justify-content: center;
-    border-top: 0.25px solid #b6b6b6;
+    /* border-top: 0.25px solid #b6b6b6; */
   }
 
   .neom__quick__links ul li:not(:first-child) {
